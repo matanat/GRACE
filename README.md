@@ -1,4 +1,4 @@
-# GRACE: GRaph Assembly proCessing nEtworks,
+# GRACE: GRaph Assembly proCessing nEtworks
 
 This is the repository for our two papers:
 1. Atad, M.*, Feng, J.*, Rodríguez, I., Durner, M. and Triebel, R., 2023. Efficient and Feasible Robotic Assembly Sequence Planning via Graph Representation Learning. arXiv preprint arXiv:2303.10135. 
