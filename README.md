@@ -4,18 +4,20 @@ This is the repository for our two papers:
 1. Atad, M.*, Feng, J.*, Rodríguez, I., Durner, M. and Triebel, R., 2023. Efficient and Feasible Robotic Assembly Sequence Planning via Graph Representation Learning. arXiv preprint arXiv:2303.10135. 
 2. Feng, J.*, Atad, M.*, Rodríguez, I., Durner, M., Günnemann, S., and Triebel, R., 2023. Density-based Feasibility Learning with Normalizing Flows for Introspective Robotic Assembly. 
 
-The first was accepted to IROS 2023 and the second to the RSS 2023 Assembly Workshop.
+The [first](https://https://arxiv.org/abs/2303.10135) was accepted to IROS 2023 and the second to the RSS 2023 Assembly Workshop.
 
 ## Abstracts
 ### Efficient and Feasible Robotic Assembly Sequence Planning via Graph Representation Learning
 
-![GRACE](images/GRACE_teaser.jpeg "GRACE")
+<img src="images/GRACE_teaser.jpeg" alt="GRACE" height="300">
+
 
 Automatic Robotic Assembly Sequence Planning (RASP) can significantly improve productivity and resilience in modern manufacturing along with the growing need for greater product customization. One of the main challenges in realizing such automation resides in efficiently finding solutions from a growing number of potential sequences for increasingly complex assemblies. Besides, costly feasibility checks are always required for the robotic system. To address this, we propose a holistic graphical approach including a graph representation called Assembly Graph for product assemblies and a policy architecture, Graph Assembly Processing Network, dubbed GRACE for assembly sequence generation. Secondly, we use GRACE to extract meaningful information from the graph input and predict assembly sequences in a step-by-step manner. In experiments, we show that our approach can predict feasible assembly sequences across product variants of aluminum profiles based on data collected in simulation of a dual-armed robotic system. We further demonstrate that our method is capable of detecting infeasible assemblies, substantially alleviating the undesirable impacts from false predictions, and hence facilitating real-world deployment soon.
 
 ### Density-based Feasibility Learning with Normalizing Flows for Introspective Robotic Assembly
 
-![NF for RASP](images/NFs_ASP_teaser.jpeg"NF for RASP")
+<img src="images/NFs_ASP_teaser.jpeg" alt="GRACE" height="300">
+
 
 Machine Learning (ML) models in Robotic Assembly Sequence Planning (RASP) need to be introspective on the predicted solutions, i.e. whether they are feasible or not, to circumvent potential efficiency degradation. Previous works need both feasible and infeasible examples during training. However, the infeasible ones are hard to collect sufficiently when re-training is required for swift adaptation to new product variants. In this work, we propose a density-based feasibility learning method that requires only feasible examples. Concretely, we formulate the feasibility learning problem as Out-of-Distribution (OOD) detection with Normalizing Flows (NF), which are powerful generative models for estimating complex probability distributions. Empirically, the proposed method is demonstrated on robotic assembly use cases and outperforms other single-class baselines in detecting infeasible assemblies. We further investigate the internal working mechanism of our method and show that a large memory saving can be obtained based on an advanced variant of NF.
 
